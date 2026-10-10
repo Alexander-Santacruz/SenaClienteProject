@@ -1,0 +1,22 @@
+/* Importar Bootstrap */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* Tu CSS personalizado */
+body {
+    padding-top: 56px; /* Para espacio del navbar fijo */
+}
+
+/* Estilos personalizados */
+.pagination {
+    justify-content: center;
+}
+
+.pagination .page-item .page-link {
+    font-size: 14px !important;
+    padding: 8px 12px !important;
+}
+
+.pagination .page-item .page-link:hover {
+    background-color: #007bff !important;
+    color: white !important;
+}
